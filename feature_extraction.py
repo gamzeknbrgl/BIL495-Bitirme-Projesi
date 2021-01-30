@@ -10,7 +10,6 @@ from keras.preprocessing import image
 from keras.models import Model
 from keras.models import model_from_json
 from keras.layers import Input
-
 from sklearn.preprocessing import LabelEncoder
 import numpy as np
 import glob
