@@ -1,4 +1,4 @@
-#keras imports
+
 from keras.applications.vgg16 import VGG16, preprocess_input
 from keras.applications.vgg19 import VGG19, preprocess_input
 from keras.applications.xception import Xception, preprocess_input
@@ -11,16 +11,14 @@ from keras.models import Model
 from keras.models import model_from_json
 from keras.layers import Input
 
-#other imports
 from sklearn.preprocessing import LabelEncoder
 import numpy as np
 import glob
-import cv2
-import h5py
 import os
 import json
-import datetime
-import time
+import cv2
+import h5py
+
 
 
 with open('settings.json') as f:    
